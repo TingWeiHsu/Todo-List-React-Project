@@ -1,0 +1,86 @@
+
+#main-content {
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.App{
+    font-family:  Arial, Helvetica, sans-serif, "微軟正黑體"; 
+}
+
+.App>h1 {
+    font-size: 18px;
+    color: #333; 
+    margin-top: 25px;
+}
+
+.App>.Form>button {
+    font-size: 16px;
+    background-color: #003459;
+    border: 0px;
+    width: 31%;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 5px 15px 0px;
+    border-radius: 5px;
+}
+
+.App>.Form>button:first-child {
+    margin-left: 2px;
+}
+
+.App>.Form>form>input:last-child {
+    font-size: 16px;
+    background-color: #00A8E8;
+    border: 0px;
+    width: 72px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.App>.Form>form>input:first-child {
+    font-size: 17px;
+    width: 180px;
+    border: 1px #ececec solid;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.App>.List{
+    margin: 10px 0px 30px 0px;
+}
+
+.App>.List>.Task> button {
+    font-size: 16px;
+    background-color: #00A8E8;
+    padding: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 0px;
+    width: 55px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.App>.List>.Task> button:first-child {
+    font-size: 16px;
+    background-color: #00A8E8;
+    padding: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 0px;
+    width: 35px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.App>.List>.Task> span {
+    font-size: 16px;
+    margin: 5px 5px 5px 10px;
+    width: 55px;
+    color: #333;
+}
